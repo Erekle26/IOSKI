@@ -31,9 +31,10 @@ header {
 }
 
 .txilamurebi{
-	margin-left: 106px;
+	margin-left: 60px;
 }
 .gondola{
+	margin-left: 20px;
 	margin-bottom: 7px;
 	position: relative;
 	animation-name: gondol;
@@ -48,7 +49,7 @@ header {
 }
 @keyframes gondol {
 	0% {left: 0px; bottom: 0px;}
-	100% {left: 75px; bottom: 50px;}
+	100% {left: 80px; bottom: 50px;}
 }
 
 .blue{
@@ -85,6 +86,8 @@ nav{
 	float: right;
 	cursor: pointer;
 	opacity: 0;
+	margin-right: 120px;
+	margin-top: 10px;
 }
 ul{
 	list-style-type: none;
