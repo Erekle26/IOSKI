@@ -34,6 +34,7 @@ header {
 	margin-left: 106px;
 }
 .gondola{
+	margin-bottom: 7px;
 	position: relative;
 	animation-name: gondol;
 	animation-duration: 6s;
@@ -41,6 +42,9 @@ header {
 }
 .mtadagondola{
 	position: relative;
+	margin-top: 60px;
+	width: 35px;
+	margin-left: 10px;
 }
 @keyframes gondol {
 	0% {left: 0px; bottom: 0px;}
