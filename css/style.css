@@ -39,6 +39,9 @@ header {
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
+.mtadagondola{
+	position: relative;
+}
 @keyframes gondol {
 	0% {left: 0px; bottom: 0px;}
 	100% {left: 75px; bottom: 50px;}
