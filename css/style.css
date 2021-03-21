@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gazzarelli');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-body, html {
-	font-family: 'Montserrat', sans-serif;
-}
 .logo{
-	width: 65px;
-	height: 65px;
-	border-radius: 50%;
+	width: 54px;
+	height: 54px;
 	margin-left: 39px;
-	margin-bottom: 12px;
-	border:2px solid #132148;
+	margin-bottom: 13px;
 }
 .logo:hover {
   transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 header {
-	background-color: black;
-	height: 113px;
+	background-color: #23252A;
+	height: 80px;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -26,15 +24,15 @@ header {
 	float: right;
 	cursor: pointer;
 	margin-right: 121.2px;
-	padding-top: 39.4px;
+	padding-top: 27.6px;
 }
 .mountains{
 	margin-left: 137px;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
 }
 .gondola{
-	margin-left: 70px;
-	margin-bottom: 5px;
+	margin-left: 668px;
+	margin-top: 33px;
 	position: relative;
 	animation-name: gondol;
 	animation-duration: 8s;
@@ -43,26 +41,27 @@ header {
 }
 .mtadagondola{
 	position: relative;
-	margin-top: 68px;
-	width: 30px;
-	margin-left: 88px;
+	margin-top: 30px;
+	width: 25px;
+	margin-left: 105px;
 }
 .mtadagondola1{
+	margin-top: 30px;
 	position: relative;
-	margin-top: 68px;
-	width: 40px;
+	width: 35px;
 }
 @keyframes gondol {
 	0%{
 		left: 0; bottom: 0;
 	}
 	100%{
-		left: 220px; bottom: 53px;
+		left: 230px; bottom: 39px;
 	}
 }
 
 .blue{
-	background-color: #521770;
+	background-color: black;
+	background-size: cover;
 	width: 100%;
 	height: 250px;
 	overflow: hidden;
@@ -92,8 +91,8 @@ nav{
 	float: right;
 	cursor: pointer;
 	opacity: 0;
-	margin-right: 120px;
-	margin-top: 42px;
+	margin-right: 122px;
+	margin-top: 28.5px;
 }
 ul{
 	list-style-type: none;
@@ -109,12 +108,14 @@ a{
 	font-size: 26px;
 	letter-spacing: 3px;
 	line-height: 1.4;
+	font-family: 'Montserrat', sans-serif;
 }
 span{
 	color: gray;
 	display: block;
 	font-size: 12px;
 	margin-top: 16px;
+	font-family: 'Montserrat', sans-serif;
 	
 }
 li{
@@ -178,14 +179,15 @@ li{
 	}
 }
 .h-1{
-	font-size: 19px;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-family: 'montserrat', sans-serif;
 	font-weight: medium;
 	color: white;
 	text-align: center;
 	margin-top: 16px;
 	line-height: 1.2;
 	letter-spacing: 1px;
+	padding-top:15px;
 }
 .mtebi1{
 	width: 150px;
@@ -220,9 +222,10 @@ li{
 	margin-top: 100px;
 }
 .div{
-	display: grid;
-	grid-template-columns: repeat(2, 50%);
-	width: 80%;	
+	display: flex;
+	justify-content: space-between;
+
+	padding-top: 100px;	
 }
 .h-2{
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -245,9 +248,25 @@ li{
 	margin-left: 140px;
 }
 .baku{
-	width: 659px;
-	margin-right: 151px;
-	margin-top: 44px;
+	width: 390px;
+}
+.guda{
+	width: 390px;
+	margin-top: 10px;
+}
+.baku-guda{
+	width: 410px;
+	margin-left: 158px;
+	border-radius: 0%;
+	border:10px solid #23252A;
+	background: #23252A;
+
+}
+.ioski-1{
+	background: black;
+	width: 430px;
+	height: 270px;
+	margin-left: 110px;
 }
 .skis{
 	margin-top: 650px;
@@ -301,7 +320,7 @@ li{
 
 #clipped-title1 h1 {
 	font-size: 200px;
-	font-family: Anton, sans-serif;
+	font-family: Permanent Marker, sans-serif;
 	text-align: center;
 	-webkit-transition: text-shadow 1s ease;
 	text-shadow: 0 0 1px rgba(0,0,0,.1);
@@ -310,32 +329,13 @@ li{
 }
 
 #clipped-title2 h1 {
-	font-size: 110px;
+	font-size: 80px;
 	font-family: Pacifico, sans-serif;
 	text-align: center;
 	-webkit-transition: text-shadow 1s ease;
 	text-shadow: 0 0 1px rgba(0,0,0,.1);
-	margin-top: -75px;
+	margin-top: -40px;
 	padding: 0;
-}
-#masked-image {
-    font-family: Oswald, sans-serif;
-    font-size: 100px;
-    color: #fff;
-    text-transform: uppercase;
-    border: 14px solid #fff;
-    border-radius: .2em;
-    text-align: center;
-    margin: 0;
-    display: block;
-    -webkit-mask-image: url(../img/img1.jpg);
-    -webkit-transform: rotate(-4deg);
-    -moz-mask-image: url(../img/img1.jpg);
-    -moz-transform: rotate(-4deg);
-    -o-mask-image: url(../img/img1.jpg);
-    -o-transform: rotate(-4deg);
-    mask-image: url(../img/img1.jpg);
-    transform: rotate(-4deg);
 }
 .hey{
 	background-color: #132148;
@@ -348,22 +348,27 @@ li{
 	animation-name: skiing;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
 }
 @keyframes skiing{
 	0%{
-		top: 125px; left: 510px;
+		top: 100px; left: 510px;
 	}
 	100%{
-		top: 200px; left: 465px;
+		top: 177px; left: 465px;
 	}
 }
 .skier{
-	margin-left: 360px;
-	margin-top: 150px;
+	margin-left: 355px;
+	margin-top: 126px;
 	position: absolute;
 	width: 270px;
 	opacity: 0;
 	animation: menu-item-anim .6s forwards 1s ease-in-out;
 	cursor: pointer;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+
 }
