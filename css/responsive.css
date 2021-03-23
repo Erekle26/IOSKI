@@ -90,17 +90,6 @@
 
 }
 @media (max-width: 1243.8px){
-	.nav-nav ul{
-		display: none; 
-	}
-	.nav-nav{
-		background: #23252A;
-	}
-	.menu{
-		display: initial;
-		float: right;
-	}
-	
 	.gondola{
 		display: none;
 	}
@@ -162,9 +151,6 @@
      	margin-top: 1050px;
      	margin-left: 400px;
      	width: 100px;
-     }
-     .chaewere{
-     	
      }
      @keyframes skiing{
 	0%{
@@ -654,9 +640,6 @@
     	margin-left: 120px;
     	margin-top: 40px;
     }
-    .vottak{
-    	
-    }
     .logo{
     	width: 35px;
     	margin-top: 8px;
@@ -720,9 +703,6 @@
     	width: 90px;
     	margin-left: 120px;
     	margin-top: 40px;
-    }
-    .vottak{
-    	
     }
     .logo{
     	width: 35px;
