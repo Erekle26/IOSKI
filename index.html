@@ -1,69 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> My Project </title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> My Project </title>
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
 </head>
 <body class="body-1">
-	<div id="progressbar"></div>
-    <div id="scrollpath"></div>
-    <nav id="overlay">
-    	<div>
-    </div>
-		<img src="img/close.png" class="close" id="close-menu">
-		  <ul>
-			<li  class="gallery">
-				<a href="index.html"> მთავარი  </a>
-				<span> Home </span>
-			</li>
-			<li class="gallery">
-				<a href="events.html"> ღონისძიებები </a>
-				<span> Events </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> ჩვენს შესახებ </a>
-				<span> About Us </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> გალერეა </a>
-				<span> Gallery </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> ჩაწერა </a>
-				<span> Application Form </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> კონტაქტი </a>
-				<span> Contact </span>
-			</li>
-		  </ul>
-	</nav>
 	<header>
-	    <a href="index.html" class="logoa"> <img src="img/logo5.svg" class="logo"> </a>
-	  <a href="#">
-		<img src="img/elevator.png" class="gondola">
-	  </a>
-		<img src="img/mtebi1.png" class="mtadagondola">
-		<img src="img/mtebi1.png" class="mtadagondola1">
-		<img src="img/menu.svg" class="menu" id="open-menu">
-	</header>
-	
-	<script type="text/javascript">
-		var overlay = document.getElementById('overlay')
-		var closeMenu = document.getElementById('close-menu')
-
-		document.getElementById('open-menu').addEventListener('click', function(){
-			overlay.classList.add('show-menu');
-		})
-		document.getElementById('close-menu').addEventListener('click', function(){
-			overlay.classList.remove('show-menu');
-		})
-	</script>
+		<img src="img/logo5.svg" class="logo">
+		<nav>
+<ul>
+ <li><a href="#" class="mtavari">მთავარი</a></li>
+ <li><a href="#">ჩვენს შესახებ</a>
+  <ul>
+   <li><a href="#">ჩვენი გუნდი</a></li>
+   <li><a href="#">Camp Sites</a></li>
+   <li><a href="#">Mission &amp; Vision</a></li>
+   <li><a href="#">Resources</a></li>
+  </ul>
+ </li>
+ <li><a href="#">Things to do</a>
+  <ul>
+   <li><a href="#">Activities</a></li>
+   <li><a href="#">Parks</a></li>
+   <li><a href="#">Shops</a></li>
+   <li><a href="#">Events</a></li>
+  </ul>
+ </li>
+ <li><a href="#">Contact</a>
+  <ul>
+   <li><a href="#">Map</a></li>
+   <li><a href="#">Directions</a></li>
+  </ul>
+ </li>
+ <li><a href="#">News</a></li>
+</ul>
+<img src="img/menu.svg" class="menu">
+</nav>
+</header>
 	<section>
 		<div class="punch">
 		<h1 class="satauri">
