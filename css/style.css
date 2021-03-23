@@ -29,45 +29,55 @@ header {
 	top: 0;
 	left: 0;
 	display: flex;
-	overflow-x: hidden;
+
 }
-nav{
-	margin-left: 151px;
-	width: 100%
+.mr.bean{
+	display: none;
 }
- ul {
+
+.nav-nav{
+	margin-left: 96px;
+	margin-top: 20px;
+	width: 100%;
+  background: #00278A;
+  height: 40px;
+  width: 100%;
+}
+
+}
+ .nav-nav ul {
  padding-top: 20px;
  list-style: none;
  font-family: "Montserrat";
 }
 
-ul li {
+.nav-nav ul li {
  float: left;
- width: 200px;
+ width: 150px;
  height: 40px;
  background-color: black;
  opacity: .8;
  line-height: 40px;
  text-align: center;
- font-size: 20px;
- margin-right: 15px;
+ font-size: 18px;
+ margin-right: 16px;
 }
 
-ul li a {
+.nav-nav ul li a {
  text-decoration: none;
  color: white;
  display: block;
 }
 
-ul li a:hover {
+.nav-nav ul li a:hover {
  background-color: #198EC8 ;
 }
 
-ul li ul li{
+.nav-nav ul li ul li{
  display: none;
 }
 
-ul li:hover ul li {
+.nav-nav ul li:hover ul li {
  display: block;
 }
 section{
@@ -75,15 +85,16 @@ section{
 }
 
 .menu{
-	width: 29.82px;
+	width: 41px;
+	height: 34.09px;
 	float: right;
 	cursor: pointer;
-	margin-right: 121.2px;
-	padding-top: 27.6px;
+	margin-right: 72px;
+	padding-top: 3px;
 	display: none;
 }
 .gondola{
-	margin-left: 668px;
+	margin-right: 130px;
 	margin-top: 33px;
 	position: relative;
 	animation-name: gondol;
@@ -93,14 +104,16 @@ section{
 }
 .mtadagondola{
 	position: relative;
-	margin-top: 30px;
+	margin-top: 53px;
 	width: 25px;
-	margin-left: 105px;
+	height: 25px;
 }
 .mtadagondola1{
-	margin-top: 30px;
+	margin-top: 44px;
 	position: relative;
 	width: 35px;
+	height: 35px;
+	margin-right: 110px;
 }
 @keyframes gondol {
 	0%{
@@ -276,12 +289,17 @@ h2::before
   to {transform: scale(1)}
 }
 @media (max-width: 1243.8px){
-	ul{
-		display: none;
+	.nav-nav ul{
+		display: none; 
+	}
+	.nav-nav{
+		background: #23252A;
 	}
 	.menu{
 		display: initial;
-    }
+		float: right;
+	}
+	
 	.gondola{
 		display: none;
 	}
@@ -290,9 +308,6 @@ h2::before
     }
     .mtadagondola1{
 		display: none;
-	}
-	.menu{
-		margin-right: 72px;
 	}
 	.logo{
 		margin-top: 12.5px;
@@ -484,19 +499,6 @@ h2::before
     }
 }
 @media (max-width: 640px){
-	ul{
-		grid-template-columns: repeat(1,100%);
-	}
-	a{
-		font-size: 15px;
-	}
-	li{
-		margin-bottom: -30px;
-	}
-	span{
-		font-size: 8px;
-		margin-top: 7px;
-	}
 	.skier{
 		margin-left: 40px;
 		margin-top:100px;
@@ -854,6 +856,9 @@ h2::before
     header{
     	height: 50px;
     	margin-top: 0;
+    }
+    .nav-nav{
+    	height: 25px;
     }
     .logo{
     	width: 30px;
