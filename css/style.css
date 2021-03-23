@@ -2,6 +2,8 @@
 @import url('http://fonts.cdnfonts.com/css/gazzarelli');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 
 .logo{
 	width: 54px;
@@ -11,6 +13,15 @@
 }
 .logo:hover {
   transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.body-1{
+	background:#19284E;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+
 }
 header {
 	background-color: #23252A;
@@ -26,10 +37,8 @@ header {
 	margin-right: 121.2px;
 	padding-top: 27.6px;
 }
-.mountains{
 	margin-left: 137px;
 	margin-bottom: 15px;
-}
 .gondola{
 	margin-left: 668px;
 	margin-top: 33px;
@@ -58,13 +67,20 @@ header {
 		left: 230px; bottom: 39px;
 	}
 }
+.salut{
+    background: url(../img/snow.gif);
+    background-color: black;
+	background-size: cover;	
+	width: 600px;
+	height: 200px;
+	overflow: hidden;
+	margin-top: 12px;
+	margin-left: 350px;
+	border-radius: 25px;
+}
 
 .blue{
-	background-color: black;
-	background-size: cover;
-	width: 100%;
-	height: 250px;
-	overflow: hidden;
+	
 }
 
 .div-1{
@@ -99,7 +115,7 @@ ul{
 	margin: 11% auto 0 auto;
 	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(2, 50%);
+	grid-template-columns: repeat(3, 33.3%);
 	width: 80%;
 }
 a{
@@ -150,6 +166,7 @@ li{
     li:nth-of-type(7) {
         animation: menu-item-anim .6s forwards 3.9s ease-in-out
     }
+
     
 @keyframes slide-menu {
 	from{
@@ -184,10 +201,9 @@ li{
 	font-weight: medium;
 	color: white;
 	text-align: center;
-	margin-top: 16px;
-	line-height: 1.2;
+	line-height: 1.3;
 	letter-spacing: 1px;
-	padding-top:15px;
+	padding: 20px 20px 10px;
 }
 .mtebi1{
 	width: 150px;
@@ -280,17 +296,7 @@ li{
 
 }
 .gallery{
-	margin-top: 50px;
-}
-.chawera{
-	margin-top: 50px;
-}
-.chawera1{
-	margin-top: 80px;
-}
-.advantages{
-	font-size: 14px;
-	font-weight: medium;
+	margin-top: 60px;
 }
 .span-1{
 	color: gray;
@@ -310,7 +316,7 @@ li{
 }
 
 #clipped-title2 {
-	background: url(../img/th.jpg)no-repeat top center;
+	background: url(../img/img1.jpg) no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	-webkit-text-fill-color: transparent;
@@ -319,7 +325,7 @@ li{
 }
 
 #clipped-title1 h1 {
-	font-size: 200px;
+	font-size: 150px;
 	font-family: Permanent Marker, sans-serif;
 	text-align: center;
 	-webkit-transition: text-shadow 1s ease;
@@ -329,46 +335,772 @@ li{
 }
 
 #clipped-title2 h1 {
-	font-size: 80px;
+	font-size: 30px;
 	font-family: Pacifico, sans-serif;
 	text-align: center;
 	-webkit-transition: text-shadow 1s ease;
 	text-shadow: 0 0 1px rgba(0,0,0,.1);
-	margin-top: -40px;
+	margin-top: -15px;
 	padding: 0;
 }
 .hey{
-	background-color: #132148;
+	
+	height: 100%;
+
+}
+.heyyo{
+	display: flex;
 }
 .ioskier{
-	width: 30px;
+	width: 35px;
 	position: absolute;
-	left: 495px;
-	
+	left: 380px;
+	margin-top: 485px;
+
 	animation-name: skiing;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+
+
 @keyframes skiing{
 	0%{
-		top: 100px; left: 510px;
+		top: 0px; left: 382px;
 	}
 	100%{
-		top: 177px; left: 465px;
+		top: 78px; left: 343px;
 	}
 }
 .skier{
-	margin-left: 355px;
-	margin-top: 126px;
-	position: absolute;
-	width: 270px;
-	opacity: 0;
-	animation: menu-item-anim .6s forwards 1s ease-in-out;
-	cursor: pointer;
+	position: relative;
+	margin-left: 244px;
+	margin-top: 20px;
+	width: 260px;
 }
+	
 .container{
 	display: flex;
 	justify-content: space-between;
 
 }
+h2{
+	position: relative;
+	font-size: 30px;
+	font-family: "MG Glaho Drunk", sans-serif;
+	color: black;
+	margin-left: 60px;
+	margin-top:40px;
+	color: white;
+	-webkit-text-stroke: 0.1vw #383d52;
+	text-transform: uppercase;
+}
+h2::before
+{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-text-stroke: 0vw #383d52;
+	border-right:4px solid #198EC8;
+	overflow: hidden;
+	animation: animate 10s linear infinite;
+}
+@keyframes animate {
+	0%,10%,100%{
+		width: 0;
+	}
+	50%,80%{
+		width: 100%;
+	}
+}
+.mzadxar1{
+	font-size: 22px;
+	font-family: "MG Glaho Drunk", sans-serif;
+	color: black;
+	line-height: 1.2;
+	margin-top: 28px;
+	margin-left: 134px;
+	font-weight: 800;
+	
+}
+.mzadxar2{
+	font-size: 22px;
+	font-family: "MG Glaho Drunk", sans-serif;
+	color: black;
+	line-height: 1.2;
+	margin-top: 5px;
+	margin-left: 134px;
+	font-weight: 800;
+	
+}
+.hrr{
+	width: 500px;
+	margin-left: 140px;
+	margin-top: 20px;
+	color: black;
+}}
+.privet{
+	display: flex;
+}
+.chaewere{
+	float: right;
+}
+.article-1{
+}
+.chaewere{
+	margin-top: 24px;
+	margin-right: 64px;
+}
+.chaewere:hover {
+  transform: scale(1.3);}
+
+.satauri{
+	font-size: 82px;
+	font-family: "Permanent Marker", sans-serif;
+	color: black;
+	font-weight: bold;
+	line-height: 1.3;
+	margin-top: 30px;
+	margin-left: 280px;
+	font-weight: 600;
+}
+.satauri1{
+	font-size: 30px;
+	font-family: "Chelsea Market", sans-serif;
+	color: black;
+	font-weight: 900;
+	line-height: 1.3;
+	margin-top: -10px;
+	margin-left: 346px;
+	font-weight: 600;
+}
+.hey{
+	display: flex;
+}
+.vottak{
+    width: 485px;
+    height: 272.68px;
+    margin-left: 36px;
+    border-radius: 12.5px;
+}
+.vottak:hover {
+  transform: scaleX(-1);
+}
+.vottak {  
+  animation-name: zoom;
+  animation-duration: 1.5s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.01)} 
+  to {transform: scale(1)}
+}
+.mzadxar {  
+  animation-name: zoom;
+  animation-duration: 3s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.01)} 
+  to {transform: scale(1)}
+}
+@media (max-width: 1243.8px){
+	.menu{
+		margin-right: 200px;
+	}
+	.gondola{
+		display: none;
+	}
+	.mtadagondola{
+		display: none;
+    }
+    .mtadagondola1{
+		display: none;
+	}
+	.menu{
+		margin-right: 72px;
+	}
+	.logo{
+		margin-top: 12.5px;
+	}
+}
+@media (max-width: 1195px){
+	   .hey{
+	   	display: block;
+	   }
+	   .vottak{
+	   	margin-top: 100px;
+	   	margin-left: 185px;
+	   	width: 480px;
+	   	height: 270px;
+	   }
+}
+@media(max-width: 968px){
+	  ul{
+
+	  	grid-template-columns: repeat(2,50%);
+	  }
+      .article-1{
+      	width: 100%;
+      }
+      h2{ 
+        font-size: 32px;
+        margin-top: 80px;
+      }
+        .mzadxar1{
+      	width: 100%;
+      	margin-top: 120px;
+      	font-size: 32px;
+      	font-weight: bold;
+      	margin-left: 72px;
+      }
+        .mzadxar2{
+      	width: 100%;
+      	font-size: 32px;
+      	font-weight: bold;
+      	margin-left: 72px;
+      }
+      .article-event{
+       display: block;
+      }
+     .skier{
+     	width: 600px;
+     	margin-top: 200px;
+     	margin-left: 110px;
+     }
+     .ioskier{
+     	margin-top: 1050px;
+     	margin-left: 400px;
+     	width: 100px;
+     }
+     .chaewere{
+     	
+     }
+     @keyframes skiing{
+	0%{
+		top: 0px; left: 0px;
+	}
+	100%{
+		top: 150px; left: -80px;
+	}
+}
+.chaewere{
+	margin-right: 350px; 
+	width: 300px;
+	margin-top: 60px;
+}
+.satauri{
+	font-size: 130px;
+	margin-left: 220px;
+}
+.satauri1{
+	font-size: 50px;
+	margin-left: 300px;
+}
+.vottak{
+	width: 100vw;
+	background-size: cover;
+	margin-top: 200px;
+	margin-left: 0;
+	height: 500px;
+}
+
+}
+@media (max-width: 889px){
+    .mzadxar1{
+        	font-size: 30px;
+        	margin-top: 120px;
+        	margin-left: 35px;
+    }
+    .mzadxar2{
+        	font-size: 30px;
+        	margin-left: 35px;
+    }
+    .mzadxar{
+        	font-size: 26px;
+        	margin-left: 100px;
+    }
+    .chaewere{
+    	margin-left: 250px;
+    	margin-top: 80px;
+    	width: 250px;
+    }
+    .satauri{
+    	margin-left: 150px;
+    }
+    .satauri1{
+    	margin-left: 235px;
+    }
+    .vottak{
+    	margin-top:100px;
+    	width: 100%;
+    	background-size: cover;
+        border:0px;
+    }
+}
+@media (max-width: 728px){
+	.skier{
+		margin-left: 50px;
+		margin-top:100px;
+	}
+	.ioskier{
+		margin-left: 340px;
+		margin-top: 900px;
+	}
+	.mzadxar1{
+        	font-size: 26px;
+        	margin-top: 100px;
+        	margin-left: 35px;
+    }
+    .mzadxar2{
+        	font-size: 26px;
+        	margin-left: 35px;
+    }
+    .mzadxar{
+        	font-size: 22px;
+        	margin-left: 120px;
+    }
+    .satauri{
+    	margin-left: 120px;
+    }
+    .satauri1{
+    	margin-left: 220px;
+    }
+    .vottak{
+    	width: 100%;
+    	height: 350px;
+    	background-size: contain;
+    }
+
+}
+@media (max-width: 694px){
+	.skier{
+		margin-left: 50px;
+		margin-top:100px;
+		width: 500px;
+	}
+	.ioskier{
+		margin-left: 300px;
+		margin-top: 850px;
+		width: 75px;
+	}
+	.mzadxar1{
+        	font-size: 24px;
+        	margin-top: 100px;
+        	margin-left: 35px;
+    }
+    .mzadxar2{
+        	font-size: 24px;
+        	margin-left: 35px;
+    }
+    .mzadxar{
+        	font-size: 18px;
+        	margin-left: 120px;
+    }
+    .satauri{
+    	margin-left: 120px;
+    	font-size: 100px;
+    }
+    .satauri1{
+    	margin-left: 220px;
+    }
+    .chaewere{
+    	margin-left: 220px;
+    	width: 220px;
+    }
+}
+@media (max-width: 640px){
+	ul{
+		grid-template-columns: repeat(1,100%);
+	}
+	a{
+		font-size: 15px;
+	}
+	li{
+		margin-bottom: -30px;
+	}
+	span{
+		font-size: 8px;
+		margin-top: 7px;
+	}
+	.skier{
+		margin-left: 40px;
+		margin-top:100px;
+		width: 450px;
+	}
+	.ioskier{
+		margin-left: 290px;
+		margin-top: 860px;
+		width: 45px;
+	}
+.chaewere{
+	width: 200px;
+	margin-left: 200px;
+}
+	.mzadxar1{
+        	font-size: 22px;
+        	margin-top: 100px;
+        	margin-left: 35px;
+    }
+    .mzadxar2{
+        	font-size: 22px;
+        	margin-left: 35px;
+    }
+    .mzadxar{
+        	font-size: 16px;
+        	margin-left: 100px;
+    }
+    .satauri{
+
+    	margin-left: 120px;
+    }
+    .satauri1{
+    	margin-left: 220px;
+}
+}
+@media (max-width: 584px){
+
+	.skier{
+		margin-left: 50px;
+		margin-top:100px;
+	}
+	.ioskier{
+		margin-left: 300px;
+		margin-top: 800px;
+	}
+	.mzadxar1{
+        	font-size: 20px;
+        	margin-top: 100px;
+        	margin-left: 35px;
+    }
+    .mzadxar2{
+        	font-size: 20px;
+        	margin-left: 35px;
+    }
+    .mzadxar{
+        	font-size: 22px;
+        	margin-left: 40px;
+    }
+    .satauri{
+    	margin-left: 120px;
+    	font-size: 76px;
+    }
+    .satauri1{
+    	margin-left: 220px;
+    	font-size: 40px;
+    }
+    .chaewere{
+    	width: 180px;
+    }
+
+}
+@media (max-width: 547px){
+	.skier{
+		margin-left: 50px;
+		margin-top:100px;
+		width: 350px;
+	}
+	.ioskier{
+		margin-left: 240px;
+		margin-top: 700px;
+		animation-name: skiing;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease-in-out;
+}
+
+
+@keyframes skiing{
+	0%{
+		top: 0px; left: 0px;
+	}
+	100%{
+		top: 90px; left: -40px;
+	}
+	}
+
+	.mzadxar1{
+        	font-size: 17px;
+        	margin-top: 48px;
+        	margin-left: 35px;
+    }
+    .mzadxar2{
+        	font-size: 17px;
+        	margin-left: 35px;
+    }
+    .mzadxar{
+        	font-size: 18px;
+        	margin-left: 40px;
+    }
+    .satauri{
+    	margin-left: 80px;
+    	font-size: 70px;
+    }
+    .satauri1{
+    	margin-left: 180px;
+    	font-size: 36px;
+    }
+    .chaewere{
+    	width: 170px;
+    	margin-left: 150px;
+    }
+    .vottak{
+    	height: 300px;
+    }
+}
+@media (max-width: 464px){
+	.skier{
+		margin-left: 20px;
+		margin-top:100px;
+		width: 350px;
+	}
+	.ioskier{
+		margin-left: 200px;
+		margin-top: 700px;animation-name: skiing;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease-in-out;
+}
+
+
+@keyframes skiing{
+	0%{
+		top: 0px; left: 0px;
+	}
+	100%{
+		top: 90px; left: -39.8px;
+	}
+	}
+
+	.mzadxar1{
+        	font-size: 16px;
+        	margin-top: 72px;
+        	margin-left: 20px;
+    }
+    .mzadxar2{
+        	font-size: 16px;
+        	margin-left: 15px;
+    }
+    .mzadxar{
+        	font-size: 16px;
+        	margin-left:40px;
+    }
+    .satauri{
+    	margin-left: 80px;
+    	font-size: 56px;
+    }
+    .satauri1{
+    	margin-left: 180px;
+    	font-size: 30px;
+    }
+    .chaewere{
+    	width: 150px;
+    	margin-left: 130px;
+    }
+    .vottak{
+    	height: 250px;
+    }
+}
+@media (max-width: 424px){
+	.skier{
+		margin-left: 15px;
+		margin-top:100px;
+		width: 300px;
+	}
+	.ioskier{
+		margin-left: 180px;
+		margin-top: 650px;
+		width: 35px;
+		animation-name: skiing;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease-in-out;
+}
+
+
+@keyframes skiing{
+	0%{
+		top: 0px; left: 0px;
+	}
+	100%{
+		top: 90px; left: -45px;
+	}
+	}
+
+	.mzadxar1{
+        	font-size: 14px;
+        	margin-top: 72px;
+        	margin-left: 20px;
+    }
+    .mzadxar2{
+        	font-size: 14px;
+        	margin-left: 20px;
+    }
+    .mzadxar{
+        	font-size: 14px;
+        	margin-left:40px;
+    }
+    .satauri{
+    	margin-left: 80px;
+    	font-size: 48px;
+    }
+    .satauri1{
+    	margin-left: 180px;
+    	font-size: 22px;
+    }
+    .chaewere{
+    	width: 130px;
+    	margin-left: 110px;
+    }
+    .vottak{
+    	height: 200px;
+    }
+}
+@media (max-width: 375px){
+	.skier{
+		margin-left: 15px;
+		margin-top:100px;
+		width: 250px;
+	}
+	.ioskier{
+		margin-left: 150px;
+		margin-top: 515px;
+		width: 30px;
+		animation-name: skiing;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease-in-out;
+}
+
+
+@keyframes skiing{
+	0%{
+		top: 0px; left: 0px;
+	}
+	100%{
+		top: 82px; left: -42px;
+	}
+	}
+
+	.mzadxar1{
+        	font-size: 12px;
+        	margin-top: 40px;
+        	margin-left: 10px;
+    }
+    .mzadxar2{
+        	font-size: 12px;
+        	margin-left: 10px;
+    }
+    .mzadxar{
+        	font-size: 10px;
+        	margin-left:24px;
+            margin-top: 50px;
+    }
+    .satauri{
+    	margin-left: 60px;
+    	font-size: 42px;
+    }
+    .satauri1{
+    	margin-left: 125px;
+    	font-size: 20px;
+    }
+    .chaewere{
+    	width: 90px;
+    	margin-left: 90px;
+    	margin-top: 40px;
+    }
+    .vottak{
+    	height: 180px;
+    }
+}
+@media (max-width: 320px){
+	a{
+		font-size: 10px;
+	}
+	.skier{
+		margin-left: 48px;
+		margin-top:100px;
+		width: 200px;
+	}
+	.ioskier{
+		margin-left: 165px;
+		margin-top: 493px;
+		width: 20px;
+		animation-name: skiing;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease-in-out;
+}
+
+
+@keyframes skiing{
+	0%{
+		top: 0px; left: 0px;
+	}
+	100%{
+		top:68px; left: -38px;
+	}
+	}
+
+	.mzadxar1{
+        	font-size: 12px;
+        	margin-top: 40px;
+        	margin-left: 12px;
+    }
+    .mzadxar2{
+        	font-size: 12px;
+        	margin-left: 12px;
+    }
+    .mzadxar{
+        	font-size: 10px;
+        	margin-left:24px;
+        	margin-top: 60px;
+    }
+    .satauri{
+    	margin-left: 50px;
+    	font-size: 40px;
+    }
+    .satauri1{
+    	margin-left: 100px;
+    	font-size: 20px;
+    }
+    .chaewere{
+    	width: 80px;
+    	margin-left: 100px;
+    	margin-top: 40px;
+    }
+    .vottak{
+    	display: none;
+    }
+    .menu{
+    	margin-right: 24px;
+    	width: 25px;
+    	margin-top: -12.5px;
+    }
+    header{
+    	height: 50px;
+    	margin-top: 0;
+    }
+    .logo{
+    	width: 30px;
+    	margin-top: 0;
+    	margin-left: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
