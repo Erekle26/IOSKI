@@ -7,47 +7,40 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> My Project </title>
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="body-1">
 	<header>
-	<a href="index.html">
 		<img src="img/logo5.svg" class="logo">
-	</a>
-		<nav class="nav-nav">
-<ul>
- <li><a href="#" class="mtavari">მთავარი</a></li>
- <li><a href="#">ჩვენს შესახებ</a>
-  <ul>
-   <li><a href="#">ჩვენი გუნდი</a></li>
-   <li><a href="#">Camp Sites</a></li>
-   <li><a href="#">Mission &amp; Vision</a></li>
-   <li><a href="#">Resources</a></li>
-  </ul>
- </li>
- <li><a href="#">ღონისძიებები</a>
-  <ul>
-   <li><a href="#">Activities</a></li>
-   <li><a href="#">Parks</a></li>
-   <li><a href="#">Shops</a></li>
-   <li><a href="#">Events</a></li>
-  </ul>
- </li>
- <li><a href="#">კონტაქტი</a>
-  <ul>
-   <li><a href="#">Map</a></li>
-   <li><a href="#">Directions</a></li>
-  </ul>
- </li>
- <li><a href="#">გალერეა</a></li>
-</ul>
-<img src="img/menu.svg" class="menu">
-</nav>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#Home" class="active">მთავარი</a>
+  <a href="#News">ღონისძიებები</a>
+  <a href="#Contact">კონტაქტი</a>
+  <a href="#About">ჩვენს შესახებ</a>
+  <a href="#gallery">გალერეა</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</div>
 <img src="img/elevator.png" class="gondola">
 <img src="img/mtebi1.png" class="mtadagondola">
 <img src="img/mtebi1.png" class="mtadagondola1">
-</header>
+	</header>
 	<section>
 		<div class="punch">
 		<h1 class="satauri">
