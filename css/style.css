@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-@import url('http://fonts.cdnfonts.com/css/gazzarelli');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
@@ -39,7 +38,7 @@ nav{
  ul {
  padding-top: 20px;
  list-style: none;
- font-family: arial;
+ font-family: "Montserrat";
 }
 
 ul li {
@@ -70,6 +69,9 @@ ul li ul li{
 
 ul li:hover ul li {
  display: block;
+}
+section{
+	overflow-x: hidden;
 }
 
 .menu{
