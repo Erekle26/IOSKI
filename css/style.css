@@ -277,8 +277,8 @@ h2::before
   to {transform: scale(1)}
 }
 .mzadxar {  
-	font-size: 16px;
-	margin-right: 70%;
+	font-size: 18px;
+	margin-right: 70px;
   animation-name: zoom;
   animation-duration: 3s;
   font-family: "ALKDots", sans-serif;
