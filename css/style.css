@@ -340,7 +340,7 @@ h2::before
 		background-color: #19284E;
 }
 .bg-text:hover{
-	border:black;
+	border:3px solid black;
 }
 .bg-text:hover{
 	color: black;}
