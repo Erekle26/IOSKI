@@ -294,7 +294,7 @@ h2::before
 	background-image: url(../img/snow.gif);
 	height: 100%;
 	width: 100%;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 
