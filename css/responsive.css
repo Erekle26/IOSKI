@@ -54,14 +54,14 @@
 	}
 
 }
-@media screen and (max-width: 735px){
+@media screen and (max-width: 740px){
 	.topnav{
 		width: 520px;
 		margin-left: 20px;
 	}
 	.topnav a{
 		margin-left: 4px;
-		font-size: 13px;
+		font-size: 12px;
 		margin-top: 8px;
 	}
 	.logo{
