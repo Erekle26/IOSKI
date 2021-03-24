@@ -90,6 +90,7 @@
     float: none;
     display: block;
     text-align: left;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 400px){
