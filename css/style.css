@@ -337,13 +337,16 @@ h2::before
   font-family: "ALK Life", sans-serif;
 }
 .bg-text:hover{
-		background-color: #198EC8;
-		color: black;
-		border:none;
+		background-color: #19284E;
 }
 .bg-text:hover{
-	transform: scale(1.1);
+	border:black;
 }
+.bg-text:hover{
+	color: black;}
+
+
+
 
 
 
