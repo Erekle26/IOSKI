@@ -15,7 +15,7 @@
         font-size: 16px;
         line-height: 20px;
         padding: 10px;
-        margin-left: -200px;
+        margin-left: -250px;
     }
 	.bg-image{
 		width: 662px;
@@ -220,7 +220,7 @@
         	margin-left: 35px;
     }
     .mzadxar{
-        	font-size: 22px;
+        	font-size: 20px;
         	margin-left: 40px;
     }
     .chaewere{
@@ -246,7 +246,7 @@
     }
 
 }
-@media (max-width: 728px){
+@media (max-width: 766px){
 	.skier{
 		margin-left: 50px;
 		margin-top:100px;
@@ -256,12 +256,12 @@
 		margin-top: 900px;
 	}
 	.mzadxar1{
-        	font-size: 26px;
+        	font-size: 27px;
         	margin-top: 100px;
         	margin-left: 35px;
     }
     .mzadxar2{
-        	font-size: 26px;
+        	font-size: 27px;
         	margin-left: 35px;
     }
     .mzadxar{
@@ -333,17 +333,17 @@
 	margin-left: 200px;
 }
 	.mzadxar1{
-        	font-size: 23px;
+        	font-size: 24px;
         	margin-top: 100px;
         	margin-left: 15px;
     }
     .mzadxar2{
-        	font-size: 23px;
+        	font-size: 24px;
         	margin-left: 15px;
     }
     .mzadxar{
-        	font-size: 20px;
-        	margin-left: 40px;
+        	font-size: 18px;
+        	margin-left: 20px;
     }
     .satauri{
 
@@ -373,7 +373,7 @@
         	margin-left: 15px;
     }
     .mzadxar{
-        	font-size: 20px;
+        	font-size: 17px;
         	margin-left: 20px;
     }
     .satauri{
@@ -424,8 +424,8 @@
         	margin-left: 15px;
     }
     .mzadxar{
-        	font-size: 20px;
-        	margin-left: 40px;
+        	font-size: 17px;
+        	margin-left: 20px;
     }
     .satauri{
     	margin-left: 80px;
@@ -469,16 +469,16 @@
 	}
 
 	.mzadxar1{
-        	font-size: 19px;
+        	font-size: 20px;
         	margin-top: 72px;
         	margin-left: 20px;
     }
     .mzadxar2{
-        	font-size: 19px;
+        	font-size: 20px;
         	margin-left: 15px;
     }
     .mzadxar{
-        	font-size: 18px;
+        	font-size: 16px;
         	margin-left:20px;
     }
     .satauri{
@@ -533,8 +533,8 @@
         	margin-left: 20px;
     }
     .mzadxar{
-        	font-size: 17px;
-        	margin-left:30px;
+        	font-size: 15px;
+        	margin-left:20px;
     }
     .satauri{
     	margin-left: 80px;
@@ -581,16 +581,16 @@
 	}
 
 	.mzadxar1{
-        	font-size: 15px;
+        	font-size: 16px;
         	margin-top: 40px;
         	margin-left: 10px;
     }
     .mzadxar2{
-        	font-size: 15px;
+        	font-size: 16px;
         	margin-left: 10px;
     }
     .mzadxar{
-        	font-size: 15px;
+        	font-size: 12px;
         	margin-left:24px;
             margin-top: 50px;
     }
@@ -650,7 +650,7 @@
         	margin-left: 12px;
     }
     .mzadxar{
-        	font-size: 14px;
+        	font-size: 12px;
         	margin-left:24px;
         	margin-top: 60px;
     }
@@ -705,16 +705,16 @@
 	}
 
 	.mzadxar1{
-        	font-size: 13px;
+        	font-size: 14px;
         	margin-top: 40px;
         	margin-left: 12px;
     }
     .mzadxar2{
-        	font-size: 13px;
+        	font-size: 14px;
         	margin-left: 12px;
     }
     .mzadxar{
-        	font-size: 13px;
+        	font-size: 11px;
         	margin-left:24px;
         	margin-top: 60px;
     }
