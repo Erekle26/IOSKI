@@ -221,7 +221,7 @@
     }
     .mzadxar{
         	font-size: 22px;
-        	margin-left: 60px;
+        	margin-left: 40px;
     }
     .chaewere{
     	margin-left: 250px;
@@ -266,7 +266,7 @@
     }
     .mzadxar{
         	font-size: 20px;
-        	margin-left: 60px;
+        	margin-left: 40px;
     }
     .satauri{
     	margin-left: 120px;
@@ -343,7 +343,7 @@
     }
     .mzadxar{
         	font-size: 20px;
-        	margin-left: 80px;
+        	margin-left: 40px;
     }
     .satauri{
 
@@ -373,8 +373,8 @@
         	margin-left: 15px;
     }
     .mzadxar{
-        	font-size: 22px;
-        	margin-left: 40px;
+        	font-size: 20px;
+        	margin-left: 20px;
     }
     .satauri{
     	margin-left: 120px;
@@ -389,7 +389,7 @@
     }
 
 }
-@media (max-width: 547px){
+@media (max-width: 565px){
 	.skier{
 		margin-left: 50px;
 		margin-top:100px;
@@ -478,8 +478,8 @@
         	margin-left: 15px;
     }
     .mzadxar{
-        	font-size: 19px;
-        	margin-left:40px;
+        	font-size: 18px;
+        	margin-left:20px;
     }
     .satauri{
     	margin-left: 100px;
