@@ -133,8 +133,8 @@ section{
 .ioskier{
 	width: 35px;
 	position: absolute;
-	margin-left: -55px;
-	margin-top: 500px;
+	margin-left: -60px;
+	margin-top: 495px;
 
 	animation-name: skiing;
     animation-duration: 3s;
