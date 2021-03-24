@@ -485,7 +485,11 @@ i.fa.fa-instagram:hover{
 	font-family: "MG Glaho Drunk" sans-serif;
 	font-size: 16px;
 }
-
+$('.lazy').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1
+});
 
 
 
