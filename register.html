@@ -21,9 +21,9 @@
 		<div class="topnav" id="myTopnav">
     <a href="index.html">მთავარი</a>
     <a href="events.html" >ღონისძიებები</a>
-    <a href="contact.html"class="active">კონტაქტი</a>
+    <a href="contact.html">კონტაქტი</a>
     <a href="#About">ჩვენს შესახებ</a>
-    <a href="register.html">რეგისტრაცია</a>
+    <a href="register.html" class="active">რეგისტრაცია</a>
 
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -46,14 +46,34 @@ function myFunction() {
 
 <section>
 <div class="bg-image"></div>
-<div class="ravi">
-<div class="bg-text2">
-	<p class="">+995 599 90 38 34</p>
+<div class="bg-text3">
+	<form action="/action_page.php">
+		<div class="haha">
+			<div>
+				<div class="xo">
+  <label for="fname">სახელი:</label><br>
+  <input  class="va" type="text" id="fname" name="fname" value=""><br>
 </div>
-<div class="bg-text1">
-<a href="https://www.facebook.com/ioskiskola"></a><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-<a href="#"></a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<div class="ho">
+  <label for="lname">გვარი:</label><br>
+  <input class="va1" type="text" id="lname" name="lname" value=""><br><br>
 </div>
+  <label class="week" for="week">აირჩიეთ შეხვედრის თარიღი</label>
+  <div class="tarigi">
+  <input type = "checkbox" name = "december" value = "on"> დეკემბერი 18-30
+  <input type = "checkbox" name = "first" value = "on"> იანვარი 1-12
+  <input type = "checkbox" name = "second" value = "on"> იანვარი 12-24
+  <input type = "checkbox" name = "third" value = "on"> თებერვალი 1-12
+  <input type = "checkbox" name = "fourth" value = "on"> თებერვალი 12-24
+</div>
+<div class="mail">
+	<label for="email">შეიყვანეთ თქვენი იმეილი:</label>
+  <input class="email"type="email" id="email" name="email">
+</div>
+</div>
+  <input class="submit" type="submit" value="Submit">
+</div>
+</form> 
 </div>
 </section>
 </body>

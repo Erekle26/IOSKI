@@ -12,7 +12,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 144px;
-  width: 720px;
+  width: 730px;
   border-radius: 5px;
 }
 .topnav a {
@@ -418,6 +418,74 @@ i.fa.fa-instagram:hover{
   font-family: "ALK Life", sans-serif;
   
 }
+.bg-text3{
+  background-color: #19284E; /* Fallback color *//* Black w/opacity/see-through */
+  color: white;
+  font-weight: 500;
+  border:3px solid black;
+  position: absolute;
+  top: 370px;
+  margin-left: 680px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 400px;
+  padding: 15px;
+  text-align: center;
+  font-size:18px;
+  line-height: 20px;
+  font-family: "ALK Life", sans-serif;
+  
+}
+.tarigi{
+	display: block;
+	font-size: 14px;
+	line-height: 15px;
+	margin-top: 25px;
+
+}
+.xo{
+	display: flex;
+	margin-top: 10px;
+}
+.ho{
+	display: flex;
+	margin-top: 20px;
+}
+.va1{
+	margin-left: 40px;
+	height: 25px;
+	width: 250px;
+	margin-bottom: 25px;
+}
+.va{
+	margin-left: 25px;
+	height: 25px;
+	width: 250px;
+	margin-bottom: 25px;
+}
+.week{
+    margin-top: 80px;
+}
+.submit{
+	font-size: 14px;
+	font-family: "Chelsea Market", sans-serif;
+	color: white;
+	font-weight: 700;
+	background: #D55F1B;
+	width: 80px;
+	height: 30px;
+	margin-top: 30px;
+}
+.haha{
+	display: block;
+}
+.mail{
+	margin-top: 30px;
+	display: flex;
+	font-family: "alk-life" sans-serif;
+	font-size: 16px;
+}
+
 
 
 
