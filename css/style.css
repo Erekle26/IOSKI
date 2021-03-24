@@ -485,6 +485,13 @@ i.fa.fa-instagram:hover{
 	font-family: "alk-life" sans-serif;
 	font-size: 16px;
 }
+$('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
 
 
 
