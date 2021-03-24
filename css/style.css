@@ -200,7 +200,7 @@ h2::before
 	font-family: "MG Glaho Drunk", sans-serif;
 	color: black;
 	line-height: 1.2;
-	margin-top: 28px;
+	margin-top: 36px;
 	margin-left: 134px;
 	font-weight: 800;
 	
@@ -279,7 +279,7 @@ h2::before
   to {transform: scale(1)}
 }
 .mzadxar {  
-	font-size: 20px;
+	font-size: 22px;
   animation-name: zoom;
   animation-duration: 3s;
   font-family: "ALKDots", sans-serif;
