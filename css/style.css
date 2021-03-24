@@ -1,3 +1,4 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -5,13 +6,13 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background-color: #101D3D;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: 164px;
-  width: 722px;
+  width: 690px;
+  border-radius: 5px;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -19,13 +20,15 @@
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-top: 8px;
+  font-size: 18px;
+  margin-left: 13px;
+  margin-top: 4px;
+  border-radius: 0px;
+  font-family: "ALK Life", sans-serif;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #919EC1;
   color: black;
 }
 
@@ -281,7 +284,9 @@ h2::before
   from {transform: scale(0.01)} 
   to {transform: scale(1)}
 }
-
+.gonisdzieba-div{
+	background: 
+}
 
 
 

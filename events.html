@@ -1,77 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> My Project </title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> My Project </title>
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body class="body-1">
-	<div id="progressbar"></div>
-    <div id="scrollpath"></div>
-    <nav id="overlay">
-    	<div>
-    </div>
-		<img src="img/close.png" class="close" id="close-menu">
-		  <ul>
-			<li  class="gallery">
-				<a href="index.html"> მთავარი  </a>
-				<span> Home </span>
-			</li>
-			<li class="gallery">
-				<a href="events.html"> ღონისძიებები </a>
-				<span> Events </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> ჩვენს შესახებ </a>
-				<span> About Us </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> გალერეა </a>
-				<span> Gallery </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> ჩაწერა </a>
-				<span> Application Form </span>
-			</li>
-			<li class="gallery">
-				<a href="#"> კონტაქტი </a>
-				<span> Contact </span>
-			</li>
-		  </ul>
-	</nav>
 	<header>
-	    <a href="index.html" class="logoa"> <img src="img/logo5.svg" class="logo"> </a>
-	  <a href="#">
-		<img src="img/elevator.png" class="gondola">
+      <a href="index.html">
+		<img src="img/logo5.svg" class="logo">
 	  </a>
-		<img src="img/mtebi1.png" class="mtadagondola">
-		<img src="img/mtebi1.png" class="mtadagondola1">
-		<img src="img/menu.svg" class="menu" id="open-menu">
-	</header>
-	
-	<script type="text/javascript">
-		var overlay = document.getElementById('overlay')
-		var closeMenu = document.getElementById('close-menu')
+		<div class="topnav" id="myTopnav">
+    <a href="index.html">მთავარი</a>
+    <a href="events.html" class="active">ღონისძიებები</a>
+    <a href="#Contact">კონტაქტი</a>
+    <a href="#About">ჩვენს შესახებ</a>
+    <a href="#gallery">გალერეა</a>
 
-		document.getElementById('open-menu').addEventListener('click', function(){
-			overlay.classList.add('show-menu');
-		})
-		document.getElementById('close-menu').addEventListener('click', function(){
-			overlay.classList.remove('show-menu');
-		})
-	</script>
-	<section>
-		<div>
-	      <article>
-			<h1>ღონისძიებები</h1>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<img src="img/elevator.png" class="gondola">
+<img src="img/mtebi1.png" class="mtadagondola">
+<img src="img/mtebi1.png" class="mtadagondola1">
+	</header>
+
+<section>
+		<div class="gonisdzieba-div">
+	      <article class="gonisdzieba">
+			<h1 class="gonisdzieba-h1">ღონისძიებები</h1>
 			<p>დაგეგმილია ზაფხულის შეკრებები საქართველოს ულამაზეს და ეგზოტიკურ სოფელში -  პატარა მიტარბში. სოფელს აქვს უნიკალური ადგილმდებარეობა   მთებს შორის, მიტარბის მინერალურ წყალთან ახლოს.</p>
 		  </article>
 		</div>
 	</section>
-
-</body>
-</html>
