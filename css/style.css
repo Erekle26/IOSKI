@@ -60,8 +60,8 @@
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
-
 }
+
 header {
 	background-color: #23252A;
 	height: 100%;
@@ -315,6 +315,7 @@ h2::before
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 /* Position text in the middle of the page/image */
@@ -326,7 +327,7 @@ h2::before
   border: 3px solid white;
   position: absolute;
   top: 370px;
-  left: 50%;
+  margin-left: 680px;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 50%;
@@ -344,10 +345,78 @@ h2::before
 }
 .bg-text:hover{
 	color: black;}
+.soc{
+	display: flex;
+	margin-left: 350px;
+	position: absolute;
+}
+.ravi{display: block;}
 
 
+i.fa.fa-facebook{
+border-radius: 100%;
+font-size: 34px;
+background: #3B5998;
+height: 50px;
+width: 50px;
+line-height: 40px;
+padding: 5px;
+margin: 5px;
+text-align: center;
+border: 1px solid #3B5998;
+color: white;
+}
+i.fa.fa-instagram{
+border-radius: 100%;
+background: #125688;
+font-size: 34px;
+height: 50px;
+line-height: 40px;
+padding: 5px;
+margin: 5px;
+margin-left: 20px;
+text-align: center;
+width: 50px;
+border: 1px solid #3B5998;
+color: white;
+}
+i.fa.fa-facebook:hover{
+	opacity: 0.7;
+}
+i.fa.fa-instagram:hover{
+	opacity: 0.7;
+}
 
+.bg-text1{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+ 
+  position: absolute;
+  top: 500px;
+  margin-left: 690px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 160px;
+  padding: 7px;}
 
+.bg-text2{
+  background-color: #19284E; /* Fallback color *//* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border:3px solid black;
+  position: absolute;
+  top: 370px;
+  margin-left: 680px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  font-size:20px;
+  line-height: 35px;
+  font-family: "ALK Life", sans-serif;
+  
+}
 
 
 

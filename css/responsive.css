@@ -9,6 +9,20 @@
         margin-bottom: 7px;
 		font-size: 16px;
 	}
+	.bg-text{
+		
+        width: 600px;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px;
+        margin-left: -200px;
+    }
+	.bg-image{
+		width: 662px;
+		height: 400.55px;
+		margin-top: 100px;
+
+	}
 
 }
 @media screen and (max-width: 885px){
@@ -90,6 +104,13 @@
 
 }
 @media (max-width: 1243.8px){
+	.bg-text{
+		margin-left: 430px;
+	}
+	.bg-image{
+		margin-left: 40px;
+
+	}
 	.gondola{
 		display: none;
 	}
@@ -452,7 +473,7 @@
     }
     .mzadxar{
         	font-size: 19px;
-        	margin-left:20px;
+        	margin-left:40px;
     }
     .satauri{
     	margin-left: 100px;
