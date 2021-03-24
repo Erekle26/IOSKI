@@ -281,7 +281,7 @@ h2::before
 .mzadxar {  
   animation-name: zoom;
   animation-duration: 3s;
-  font-family: font-family: "ALKDots", sans-serif;
+  font-family: "ALKDots", sans-serif;
 }
 
 @keyframes zoom {
@@ -291,35 +291,59 @@ h2::before
 .body-2{
 	background: black;
 	background-image: url(../img/snow.gif);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
-.gonisdzieba-div{
-	background-image: url(../img/images.jpg);
-	filter: blur(8px);
+
+
+.bg-image {
+  /* The image used */
+  background-image: url("../img/images.jpg");
+  
+  /* Add the blur effect */I
+  filter: blur(8px);
   -webkit-filter: blur(8px);
-  width: 720px;
-  height: 443.26px;
+  
+  /* Full height */
+   margin-top: 60px;
+   margin-left: 290px;
+    width: 780px;
+  height: 475px;
+  
+  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 323px;
-  margin-top: 150px;
- }
-.gonisdzieba-h1 {
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid white;
   position: absolute;
-  top: 50%;
+  top: 370px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
-  padding: 20px;
+  width: 50%;
+  padding: 15px;
   text-align: center;
+  font-size:18px;
+  line-height: 35px;
+  font-family: "ALK Life", sans-serif;
 }
-
+.bg-text:hover{
+		background-color: #198EC8;
+		color: black;
+		border:none;
+}
+.bg-text:hover{
+	transform: scale(1.1);
+}
 
 
 
