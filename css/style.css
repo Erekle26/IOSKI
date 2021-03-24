@@ -11,8 +11,8 @@
   background-color: #101D3D;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 164px;
-  width: 690px;
+  margin-left: 144px;
+  width: 720px;
   border-radius: 5px;
 }
 .topnav a {
@@ -279,6 +279,7 @@ h2::before
   to {transform: scale(1)}
 }
 .mzadxar {  
+	font-size: 20px;
   animation-name: zoom;
   animation-duration: 3s;
   font-family: "ALKDots", sans-serif;
