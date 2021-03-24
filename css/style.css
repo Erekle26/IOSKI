@@ -153,7 +153,8 @@ section{
 }
 .skier{
 	position: relative;
-	margin-left: 144px;
+	margin-left: 200px;
+	margin-top: 20px;
 	
 	width: 260px;
 }
