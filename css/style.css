@@ -11,7 +11,7 @@
   background-color: #101D3D;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 144px;
+  margin-left: 120px;
   width: 730px;
   border-radius: 5px;
 }
@@ -485,13 +485,6 @@ i.fa.fa-instagram:hover{
 	font-family: "alk-life" sans-serif;
 	font-size: 16px;
 }
-$('.fade').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
-});
 
 
 
