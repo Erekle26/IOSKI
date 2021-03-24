@@ -200,7 +200,7 @@ h2::before
 	font-family: "MG Glaho Drunk", sans-serif;
 	color: black;
 	line-height: 1.2;
-	margin-top: 36px;
+	margin-top: 52px;
 	margin-left: 134px;
 	font-weight: 800;
 	
@@ -226,8 +226,6 @@ h2::before
 }
 .chaewere{
 	float: right;
-}
-.article-1{
 }
 .chaewere{
 	margin-top: 24px;
@@ -279,8 +277,8 @@ h2::before
   to {transform: scale(1)}
 }
 .mzadxar {  
-	font-size: 32px;
-	margin-left: 200px;
+	font-size: 26px;
+	margin-left: 140px;
   animation-name: zoom;
   animation-duration: 3s;
   font-family: "ALKDots", sans-serif;
