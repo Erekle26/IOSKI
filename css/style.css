@@ -133,7 +133,7 @@ section{
 .ioskier{
 	width: 35px;
 	position: absolute;
-	left: 330px;
+	left: 280px;
 	margin-top: 485px;
 
 	animation-name: skiing;
@@ -153,7 +153,7 @@ section{
 }
 .skier{
 	position: relative;
-	margin-left: 200px;
+	margin-left: 180px;
 	margin-top: 20px;
 	
 	width: 260px;
