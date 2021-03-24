@@ -55,7 +55,7 @@
 }
 .body-1{
 	background:#19284E;
-	background: linear-gradient{to bottom right,#006FFF,#19284E};
+	background: linear-gradient{to bottom right,#006FFF,#19284E,white};
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
