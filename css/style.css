@@ -479,6 +479,10 @@ i.fa.fa-instagram:hover{
 	font-family: "MG Glaho Drunk" sans-serif;
 	font-size: 16px;
 }
+.vottak{
+	display: none;
+}
+
  .slider {
         width: 500px;
         height: 300px;
@@ -537,5 +541,6 @@ i.fa.fa-instagram:hover{
       .block{
       	display: block;
       }
+}
 
 

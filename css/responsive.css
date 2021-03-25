@@ -127,6 +127,9 @@
 	.logo{
 		margin-top: 12.5px;
 	}
+	.slider{
+		display: none;
+	}
 }
 @media (max-width: 1195px){
 	   .hey{
@@ -137,7 +140,9 @@
 	   	margin-left: 185px;
 	   	width: 480px;
 	   	height: 270px;
+	   	display: initial;
 	   }
+
 }
 @media(max-width: 968px){
 	  ul{
