@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
-<body class="body-2">
+<body class="body-5">
 	<header>
       <a href="index.html">
 		<img src="img/logo5.svg" class="logo">
@@ -43,13 +43,28 @@ function myFunction() {
 <img src="img/mtebi1.png" class="mtadagondola1">
 	</header>
 
-<section>
-<div class="bg-image"></div>
-
-<div class="bg-text">
- <p> <pre>დაგეგმილია ზამთრის შეკრებები საქართველოს</pre><pre> ულამაზეს და ეგზოტიკურ სოფელში -  პატარა მიტარბში. </pre> <pre> სოფელს აქვს უნიკალური ადგილმდებარეობა მთებს შორის, </pre><pre>მიტარბის მინერალურ წყალთან ახლოს.</pre></p>
-</div>
+<section class="moonlight">
+<img src="img/bg.jpg" id="bg">
+<img src="img/moon.png" id="moon">
+<img src="img/mountain.png" id="mountain">
+<img src="img/road.png" id="road">
+<h3 id="text"> ღონისძიებები </h3>
 
 	</section>
+	<script type="text/javascript">
+		let bg = document.getElementById("bg")
+		let moon = document.getElementById("moon")
+		let mountain = document.getElementById("mountain")
+		let road = document.getElementById("road")
+		let text = document.getElementById("text")
+		window.addEventLinstener('scroll', function(){
+			var value = window.scrollY;
+			bg.style.top = value * 0.5 + 'px';
+			moon.style.left = -value * 0.5 + 'px';
+			mountain.style.top = -value * 0.15 + 'px';
+			road.style.top = value * 0.15 + 'px';
+			text.style.top = value * 1 + 'px';
+		})
+	</script>
 </body>
 </html>
