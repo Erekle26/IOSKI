@@ -659,10 +659,12 @@ margin-top: 96px;
 .pic1{
 	width: 290px;
 	height: 230px;
+	object-fit: fill;
 }
 .pic2{
 	width: 290px;
 	height: 230px;
+	object-fit: fill;
 }
 
 .cc{ 
