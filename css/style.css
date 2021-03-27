@@ -69,13 +69,6 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 }
 
 header {
-	background-color: #23252A;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	display: flex;
-	overflow-x: hidden;
 
 }
 .mr.bean{
