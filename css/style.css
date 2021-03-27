@@ -1,54 +1,4 @@
-@import url("//cdn.web-fonts.ge/fonts/mg-glaho-drunk/css/mg-glaho-drunk.min.css");
-.topnav {
-  overflow: hidden;
-  background-color: #101D3D;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 144px;
-  width: 730px;
-  border-radius: 5px;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 12px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  margin-left: 13px;
-  margin-top: 4px;
-  border-radius: 5px;
-  font-family: "ALK Life", sans-serif;
-}
 
-.topnav a:hover {
-  background-color: #96A7D4;
-  color: black;
-  transition:transform .3s;
-  transform: scale(1.1);
-}
-
-.topnav a.active {
-  background-color: #198EC8;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-
-.logo{
-	width: 54px;
-	height: 54px;
-	margin-left: 39px;
-	margin-top: 12.5px;
-}
-.logo:hover {
-  transform: scale(1.3);
-  transition:transform .3s; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 .body-1{
 	background: rgb(31,31,222);
 background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, rgba(9,18,115,1) 15%, rgba(0,8,96,1) 28%, rgba(9,9,118,1) 49%, rgba(9,19,121,1) 62%, rgba(7,0,88,1) 79%, rgba(53,5,107,1) 98%);
@@ -60,20 +10,16 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 	margin: 0;
 	background-attachment: fixed;
 }
-
-.mr.bean{
-	display: none;
-}
-
 .body-5 header{
   height: 0px;
   display: flex;
 }
 
+
 .gondola{
 	margin-left: 980px;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 	margin-bottom: 410px;
 	position: absolute;
 	animation-name: gondol;
@@ -81,18 +27,50 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 	animation-iteration-count: infinite;
 	animation-timing-function:ease-out;
 }
+
 .mtadagondola{
 	position: relative;
-	margin-top: 205px;
-	width: 45px;
-	height: 45px;
+	
+	width: 47px;
+	height: 47px;
   margin-left: 750px;
+  filter: blur(2px);
 }
 .mtadagondola1{
-	margin-top: 197px;
+	margin-top: 188px;
 	position: relative;
-	width: 55px;
-	height: 55px;
+	width: 62px;
+	height: 62px;
+   filter: blur(1.5px);
+}
+.gondola:hover{
+  transform: scale(1.2);
+  transition: transform .6s;
+    
+}
+.ioskier:hover{
+  transform: scale(1.4);
+  transition: transform .6s;
+    
+}
+
+.mtadagondola1:hover{
+  transform: scale(1.1);
+  filter: blur(0px);
+  transition: transform .3s;
+    
+}
+.skier:hover{
+  transform: scale(1.1);
+  filter: blur(0px);
+  transition: transform .6s;
+    
+}
+.mtadagondola:hover{
+  transform: scale(1.1);
+  filter: blur(0px);
+  transition: transform .3s;
+    
 }
 @keyframes gondol {
 	0%{
@@ -112,10 +90,10 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 	display: flex;
 }
 .ioskier{
-	width: 35px;
+	width: 40px;
 	position: absolute;
-	margin-left: -145px;
-	margin-top: 90px;
+	margin-left: -140px;
+	margin-top: 87px;
 
 	animation-name: skiing;
     animation-duration: 3s;
@@ -129,15 +107,16 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 		top: 0px; left: 382px;
 	}
 	100%{
-		top: 78px; left: 343px;
+		top: 80px; left: 343px;
 	}
 }
 .skier{
 	position: relative;
-	margin-left: 96px;
+	margin-left: 85px;
 	margin-top: 120px;
 	
-	width: 260px;
+	width: 290px;
+  filter: blur(1px);
 }
 	
 .container{
@@ -237,14 +216,14 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 
 .bg-image {
   /* The image used */
-  background-image: url("../img/images.jpg");
+  background-image: url("../img/kobi.jpg");
   
   /* Add the blur effect */I
   filter: blur(8px);
   -webkit-filter: blur(8px);
   
   /* Full height */
-   margin-top: 60px;
+   margin-top: 260px;
    margin-left: 290px;
     width: 780px;
   height: 475px;
@@ -431,6 +410,10 @@ i.fa.fa-instagram:hover{
 	margin-top: 72px;
 }
 .ei{margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 72px;
+  margin-bottom: 12px;
+  border:12px solid #23252A;
  }
 .pic{
 	width: 625px;
@@ -439,55 +422,60 @@ i.fa.fa-instagram:hover{
     margin-top: 12px;
     padding-right: 16px;
     padding-left: 16px;
+    margin-bottom: 12px;
 }
 .ravtqva{
-	font-size: 32px;
+	font-size: 30px;
 	font-family: "MG Glaho Drunk" sans-serif;
 	font-weight: bold;
 	margin-top: 24px;
-	margin-left: 156px;
+	margin-left: 120px;
 	color: white;
 }
 .ravtqva1{
 	font-size: 22px;
 	font-family: "MG Glaho Drunk" sans-serif;
 	font-weight: bold;
-	margin-top: 48px;
-	margin-left: 48px;
+	margin-top: 36px;
+	margin-left: 104px;
 	color: #818181;
 }
 .tqvi{
 	font-size: 18px;
     font-family: "alk-life" sans-serif;
-    margin-top: 48px;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-top: 32px;
+    margin-left: 4%;
+    margin-right: 4%;
     font-weight: lighter;
     color: white;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 .tqvi1{
-    font-size: 20px;
+    font-size: 21px;
     font-family: "alk-life" sans-serif;
-    margin-top: 24px;
-    margin-left: 7%;
-    margin-right: 7%;
-    font-weight: lighter;
+    margin-top: 18px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-weight: 500;
     color: white;
-    line-height: 1.2;
+    line-height: 1.3;
+}
+.cc{
+  margin-left: 12px;
+  margin-bottom: 12px;
 }
 .tqvi2{
     font-size: 18px;
     font-family: "alk-life" sans-serif;
-    margin-top: 36px;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-top: 24px;
+    margin-left: 4%;
+    margin-right: 4%;
     font-weight: lighter;
     color: white;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 .modi{
-	margin-left: 500px;
+	margin-left: 448px;
 	font-size: 30px;
 	font-weight: 700;
 	font-family: "MG Glaho Drunk" sans-serif;
@@ -498,13 +486,33 @@ i.fa.fa-instagram:hover{
 	color: white;
 }
 .modi1{
-	margin-top: 36px;
-	margin-left: 380px;
+	margin-top: 30px;
+	margin-left: 364px;
 	font-size: 22px;
 	font-weight: 600;
 	margin-bottom: 96px;
 	font-family: "MG Glaho Drunk" sans-serif;
 	color: #818181;
+  animation-name: rot;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  filter:brightness(2);
+  animation-timing-function: ease-in-out;
+}
+@keyframes rot {
+0%{
+  transform: rotate(0deg);
+}
+25%{
+  transform: rotate(1.5deg);
+}
+75%{
+  transform: rotate(-1.5deg);
+}
+100%{
+  transform: rotate(0deg);
+}
+
 }
 .ss{
 	width: 100%;
@@ -523,7 +531,7 @@ margin-top: 96px;
 }
 
 .body-5{
-	background: black
+	background: black;
 }
 .mac{
 	display: flex;
@@ -568,7 +576,6 @@ body, html {
 
 body {
     margin: 0;
-    font-family: 'Muli', sans-serif;
     overflow: hidden;
 }
 .menu {
@@ -600,6 +607,7 @@ body {
     font-weight: 900;
     font-size: 20px;
     left: -2px;
+    font-family: 'Muli', sans-serif;
 }
 .menu:hover .title{
     opacity: 0.1;
@@ -811,7 +819,7 @@ a{
   margin-left: 72px;
   padding: 0px;
   line-height: 100px;
-  margin-top: -280px;
+  margin-top: -350px;
   font-weight: 400;
     color:#5863F8;
     background:black;
