@@ -229,7 +229,7 @@ a{
 .slideshow li div h3 {
   font-family: "MG Glaho Drunk";
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 38px;
   width: 85%;
   margin-left: 72px;
   padding: 0px;
@@ -238,6 +238,37 @@ a{
   font-weight: 400;
     color:#5863F8;
     background:black;
+    letter-spacing: 1px;
+
+}
+.slideshow li div h5 {
+  font-family: "MG Glaho Drunk";
+  text-transform: uppercase;
+  font-size: 32px;
+  width: 85%;
+  margin-left: 72px;
+  padding: 0px;
+  line-height: 100px;
+  margin-top: -250px;
+  font-weight: 400;
+    color:#5863F8;
+    background:black;
+     letter-spacing: 1px;
+
+}
+.slideshow li div h4 {
+  font-family: "MG Glaho Drunk";
+  text-transform: uppercase;
+  font-size: 32px;
+  width: 85%;
+  margin-left: 72px;
+  padding: 0px;
+  line-height: 62px;
+  margin-top: -300px;
+  font-weight: 400;
+    color:#5863F8;
+    background:black;
+     letter-spacing: 1px;
 
 }
 .slideshow li:nth-child(1) span { background-image: url(../img/93.png) }
@@ -267,7 +298,7 @@ a{
     animation-delay: 30s;
 }
 .slideshow li:nth-child(5) span {
-    background-image: url(camp.jpg);
+    background-image: url(https://24.media.tumblr.com/b94dbb2a392198d5cc39c19959598229/tumblr_n0hpthN8VH1st5lhmo1_1280.jpg);
     -webkit-animation-delay: 40s;
     -moz-animation-delay: 40s;
     -o-animation-delay: 40s;
