@@ -230,6 +230,12 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 	margin-left: 300px;
 	font-weight: 600;
 }
+.body-3{
+   overflow-y: hidden;
+   overflow-x: hidden;
+   height: 100%;
+   width: 100%;
+}
 .hey{
 	display: flex;
 }
@@ -253,13 +259,6 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
 @keyframes zoom {
   from {transform: scale(0.01)} 
   to {transform: scale(1)}
-}
-.body-2{
-	background: black;
-	background-image: url(../img/snow.gif);
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
 }
 
 
@@ -468,7 +467,7 @@ footer input {
     -webkit-box-shadow: none;
     box-shadow: none;
     color: white;
-    margin-bottom: 82px;
+    margin-bottom: 76px;
 }
 .submit:hover{
   transform: scale(1.2);

@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> IOSKI </title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> IOSKI </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body class="body-2">
-	<header>
- <div class="menu">
+  <header>
+  </header>
+         <div class="menu">
     <div class="title">MENU</div>
     <ul class="nav">
       <li><a href="index.html">მთავარი</a></li>
@@ -23,17 +24,50 @@
   <li><a href="contact.html">კონტაქტი</a></li>
   <li><a href="about.html">ჩვენს შესახებ</a></li>
   <li><a href="register.html">რეგისტრაცია</a></li>
+  <a href="https://www.facebook.com/ioskiskola" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-youtube"></a>
     </ul>
 </div>
-	</header>
 
 <section>
-<div class="bg-image"></div>
+<div class="bgImage"></div>
+<svg class="blobCont">
+    <image xlink:href="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-0.3.5&s=e20bc3d490c974d9ea190e05c47962f5&auto=format&fit=crop&w=634&q=80" mask="url(#mask)" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+      <defs>
+      <filter id="gooey" height="130%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+      </filter>
+    </defs>
+      <mask id="mask" x="0" y="0">
+        <g style="filter: url(#gooey)">
+          <circle class="blob" cx="10%" cy="10%" r="80" fill="white" stroke="white"/>
+          <circle class="blob" cx="50%" cy="10%" r="40" fill="white" stroke="white"/>
+          <circle class="blob" cx="17%" cy="15%" r="70" fill="white" stroke="white"/>
+          <circle class="blob" cx="90%" cy="20%" r="120" fill="white" stroke="white"/>
+          <circle class="blob" cx="30%" cy="25%" r="30" fill="white" stroke="white"/>
+          <circle class="blob" cx="50%" cy="60%" r="80" fill="white" stroke="white"/>
+          <circle class="blob" cx="70%" cy="90%" r="10" fill="white" stroke="white"/>
+          <circle class="blob" cx="90%" cy="60%" r="90" fill="white" stroke="white"/>
+          <circle class="blob" cx="30%" cy="90%" r="80" fill="white" stroke="white"/>
+          <circle class="blob" cx="10%" cy="10%" r="80" fill="white" stroke="white"/>
+          <circle class="blob" cx="50%" cy="10%" r="20" fill="white" stroke="white"/>
+          <circle class="blob" cx="17%" cy="15%" r="70" fill="white" stroke="white"/>
+          <circle class="blob" cx="40%" cy="20%" r="120" fill="white" stroke="white"/>
+          <circle class="blob" cx="30%" cy="25%" r="30" fill="white" stroke="white"/>
+          <circle class="blob" cx="80%" cy="60%" r="80" fill="white" stroke="white"/>
+          <circle class="blob" cx="17%" cy="10%" r="100" fill="white" stroke="white"/>
+          <circle class="blob" cx="40%" cy="60%" r="90" fill="white" stroke="white"/>
+          <circle class="blob" cx="10%" cy="50%" r="80" fill="white" stroke="white"/>
+        </g>
+      </mask>
+  </svg>
+  <div class="bg-image"></div>
 <div class="bg-text3">
-	<form action="/action_page.php">
-		<div class="haha">
-			<div>
-				<div class="xo">
+  <form action="/action_page.php">
+    <div class="haha">
+      <div>
+        <div class="xo">
   <label for="fname">სახელი:</label><br>
   <input  class="va" type="text" id="fname" name="fname" value=""><br>
 </div>
@@ -41,22 +75,25 @@
   <label for="lname">გვარი:</label><br>
   <input class="va1" type="text" id="lname" name="lname" value=""><br><br>
 </div>
-  <label class="week" for="week">აირჩიეთ შეხვედრის თარიღი</label>
+  <label class="week" for="week">აირჩიეთ შეკრების თარიღი</label>
   <div class="tarigi">
   <input type = "checkbox" name = "december" value = "on"> დეკემბერი 18-30
-  <input type = "checkbox" name = "first" value = "on"> იანვარი 1-12
-  <input type = "checkbox" name = "second" value = "on"> იანვარი 12-24
-  <input type = "checkbox" name = "third" value = "on"> თებერვალი 1-12
-  <input type = "checkbox" name = "fourth" value = "on"> თებერვალი 12-24
+  <input type = "checkbox" class="ioio" name = "first" value = "on"> იანვარი 1-12
+  <input type = "checkbox" class="ioio1"name = "second" value = "on"> იანვარი 12-24
+  <input type = "checkbox" class="ioio2" name = "third" value = "on"> თებერვალი 1-12
+  <input type = "checkbox" class="ioio3" name = "fourth" value = "on"> თებერვალი 12-24
 </div>
 <div class="mail">
-	<label for="email">შეიყვანეთ თქვენი იმეილი:</label>
+  <label for="email">შეიყვანეთ თქვენი იმეილი:</label>
   <input class="email"type="email" id="email" name="email">
 </div>
 </div>
   <input class="submit" type="submit" value="Submit">
 </div>
 </form> 
+<h1 class="ori">
+  შეკრების დეტალებს შეგატყობინებთ იმეილის სახის
+</h1>
 </div>
 </section>
 </body>
