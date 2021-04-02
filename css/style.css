@@ -14,6 +14,9 @@ background: linear-gradient(90deg, rgba(31,31,222,1) 1%, rgba(35,37,156,1) 7%, r
   height: 0px;
   display: flex;
 }
+.body-5{
+  overflow-y: scroll;
+}
 .logo{
   margin-right: 410px;
   margin-bottom: 110px;
@@ -554,6 +557,8 @@ footer input {
 .ui{
 	display: block;
 	margin-top: 64px;
+  margin-left: 6px;
+  font-family: "MG Glaho Drunk" sans-serif;
 }
 .ai{
 	display: flex;
@@ -873,7 +878,7 @@ body {
 }
 .menu:hover, .menu:focus {
     transform: translate3d(-130px, 0, 0);
-    animation-timing-function: 1.5s ease-in;
+    animation-timing-function: 2s ease-in;
 }
 .menu .title {
     position: absolute;
@@ -966,7 +971,6 @@ body{
     font-weight: 400;
     font-size: 15px;
     color: #aa3e03;
-    overflow-y: scroll;
     overflow-x: hidden;
 }
 .ie7 body{
@@ -1133,7 +1137,7 @@ a{
     -o-animation-delay: 10s;
     -ms-animation-delay: 10s;
     animation-delay: 10s;
-    object-fit: coverö
+     background-size: cover;
 }
 .slideshow li:nth-child(3) span {
     background-image: url('../img/resort-bakuriani.png');
@@ -1142,7 +1146,7 @@ a{
     -o-animation-delay: 20s;
     -ms-animation-delay: 20s;
     animation-delay: 20s;
-    object-fit: cover;
+     background-size: cover;
 }
 .slideshow li:nth-child(4) span {
     background-image: url(../img/Georgia-mountains.png);
@@ -1151,7 +1155,7 @@ a{
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s;
-    object-fit: cover;
+    background-size: cover;
 }
 .slideshow li:nth-child(5) span {
     background-image: url(../img/Caucasus-mountains-Dombai-panoramic-photo.png);
@@ -1160,7 +1164,7 @@ a{
     -o-animation-delay: 40s;
     -ms-animation-delay: 40s;
     animation-delay: 40s;
-    object-fit: cover;
+    background-size: cover;
 }
 .slideshow li:nth-child(6) span {
      background-image: url(../img/gudaguda.png);
@@ -1169,7 +1173,7 @@ a{
     -o-animation-delay: 50s;
     -ms-animation-delay: 50s;
     animation-delay: 50s;
-    object-fit: cover;
+    background-size: cover;
 }
 .slideshow li:nth-child(2) div {
     -webkit-animation-delay: 10s;
