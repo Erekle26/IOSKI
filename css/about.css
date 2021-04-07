@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.row{
+  margin-top: 12px;
+}
+.column {
+  float: left;
+  width: 32.2%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+h2{
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title1 {
+  color: grey;
+  margin-top: 6px;
+}
+img{
+  height: 270px;
+  object-fit: cover;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 6px;
+}
+p{
+  margin-top: 6px;
+}
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.menu {
+    font-weight: 100;
+    background: #efefef;
+    width: 197px;
+    height: 100%;
+    padding-left: 60px;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    right: -150px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    color: #222;
+}
+.menu:hover, .menu:focus {
+    transform: translate3d(-130px, 0, 0);
+    animation-timing-function: 2s ease-in;
+}
+.menu .title {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: rotate(270deg);
+    font-weight: 900;
+    font-size: 20px;
+    left: -8px;
+    font-family: 'Muli', sans-serif;
+}
+.menu:hover .title{
+    opacity: 0.1;
+    transition: transform .6s;
+}
+
+.menu .nav {
+    position: absolute;
+    top: 65%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "MG Glaho Drunk" sans-serif;
+}
+.menu .nav li {
+    padding-bottom: 35px;
+    list-style-type: none;
+}
+.menu .nav li a {
+    display: block;
+    color: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    margin-left: -13px;
+}
+.menu .nav li a:hover {
+    color: #aaa;
+    transform: scale(1.12);
+    transition: transform .3s;
+}
+
+/* Set a specific color for each brand */
+
+.fa {
+  padding: 6px;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  display: block;
+  margin-left: 22px;
+  margin-top: 48px;
+}
+.fa:hover {
+  opacity: 0.7;
+  transition: opacity .3s;
+  background: #3b444f;
+  color: white;
+  transition: background .3s;
+  transition: color .3s;
+}
+/* Facebook */
+.fa-facebook {
+  color: #3b444f;
+  padding: 8px;
+}
+
+/* Twitter */
+.fa-youtube {
+  color: #3b444f;
+  margin-top: 12px;
+  font-size: 22px;
+}
