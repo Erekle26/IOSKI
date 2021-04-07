@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0180FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 240px;
+}
+
+input[type=submit]:hover {
+  background-color: #101D3D;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 32px;
+}
+.photo{
+  width:100%;
+  margin-top: 72px;
+}
+.photo:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 48%;
+  margin-top: 24px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .body-3{
+    overflow-y: scroll;
+  }
+}
+body {
+    margin: 0;
+    overflow: hidden;
+}
+.menu {
+    font-weight: 100;
+    background: #efefef;
+    width: 197px;
+    height: 100%;
+    padding-left: 60px;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    right: -150px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    color: #222;
+}
+.menu:hover, .menu:focus {
+    transform: translate3d(-130px, 0, 0);
+    animation-timing-function: 2s ease-in;
+}
+.menu .title {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: rotate(270deg);
+    font-weight: 900;
+    font-size: 20px;
+    left: -8px;
+    font-family: 'Muli', sans-serif;
+}
+.menu:hover .title{
+    opacity: 0.1;
+    transition: transform .6s;
+}
+
+.menu .nav {
+    position: absolute;
+    top: 65%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "MG Glaho Drunk" sans-serif;
+}
+.menu .nav li {
+    padding-bottom: 35px;
+    list-style-type: none;
+}
+.menu .nav li a {
+    display: block;
+    color: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    margin-left: -13px;
+}
+.menu .nav li a:hover {
+    color: #aaa;
+    transform: scale(1.12);
+    transition: transform .3s;
+}
+
+/* Set a specific color for each brand */
+
+.fa {
+  padding: 6px;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  display: block;
+  margin-left: 22px;
+  margin-top: 48px;
+}
+.fa:hover {
+  opacity: 0.7;
+  transition: opacity .3s;
+  background: #3b444f;
+  color: white;
+  transition: background .3s;
+  transition: color .3s;
+}
+/* Facebook */
+.fa-facebook {
+  color: #3b444f;
+  padding: 8px;
+}
+
+/* Twitter */
+.fa-youtube {
+  color: #3b444f;
+  margin-top: 12px;
+  font-size: 22px;
+}
