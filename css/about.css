@@ -23,6 +23,7 @@ html {
 h2{
   margin-top: 24px;
   font-weight: 700;
+  line-height: 6px;
 }
 
 .card {
