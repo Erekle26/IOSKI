@@ -16,9 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
 
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body class="body-3">
@@ -38,6 +37,36 @@
 	</header>
 
 <section>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="img/holiday.jpg" class="photo">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+        	      <option value="usa">Georgia</option>
+          <option value="australia">USA</option>
+          <option value="canada">France</option>
+          <option value="usa">Italy</option>
+          <option value="usa">Other</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
 
 </section>
 </body>
