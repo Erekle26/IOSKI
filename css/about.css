@@ -7,6 +7,26 @@ body {
 html {
   box-sizing: border-box;
 }
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: midnightblue;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -14,11 +34,32 @@ html {
 .row{
   margin-top: 12px;
 }
+.p11{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 24px;
+  letter-spacing: 1px;
+  margin-right: 24px;
+ }
+ .p12{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 32px;
+  letter-spacing: 1px;
+  align-items: center;
+  margin-right: 24px;
+ }
 .column {
   float: left;
-  width: 32.2%;
+  width: 32%;
   margin-bottom: 16px;
   padding: 0 8px;
+}
+h1{
+  font-weight: 700;
+  font-size: 18px;
 }
 h2{
   margin-top: 24px;
@@ -26,8 +67,12 @@ h2{
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+}
+.card:hover{
+  box-shadow: none;
+  transition: box-shadow 1s;
 }
 
 .about-section {

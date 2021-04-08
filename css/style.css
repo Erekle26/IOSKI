@@ -6,6 +6,28 @@
 .body-5{
   overflow-y: scroll;
 }
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: midnightblue;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
+
 .logo{
   margin-right: 410px;
   margin-bottom: 110px;
@@ -47,6 +69,9 @@
     transition: opacity .3s;
 
   }
+.ui{
+
+}
 .bodybody{
   overflow-y: hidden;
   overflow-x: hidden;
@@ -81,7 +106,7 @@
 	margin-left: 980px;
   width: 55px;
   height: 55px;
-	margin-bottom: 410px;
+	margin-bottom: 420px;
 	position: absolute;
 	animation-name: gondol;
 	animation-duration: 8s;
@@ -98,7 +123,7 @@
   filter: blur(2px);
 }
 .mtadagondola1{
-	margin-top: 188px;
+	margin-top: 178px;
 	position: relative;
 	width: 62px;
 	height: 62px;
@@ -154,7 +179,7 @@
 	width: 40px;
 	position: absolute;
 	margin-left: -140px;
-	margin-top: 87px;
+	margin-top: 77px;
 
 	animation-name: skiing;
     animation-duration: 3s;
@@ -174,7 +199,7 @@
 .skier{
 	position: relative;
 	margin-left: 85px;
-	margin-top: 120px;
+	margin-top: 110px;
 	
 	width: 290px;
   filter: blur(1px);
@@ -547,7 +572,6 @@ footer input {
 	display: block;
 	margin-top: 64px;
   margin-left: 6px;
-  font-family: "MG Glaho Drunk" sans-serif;
 }
 .ai{
 	display: flex;
@@ -679,17 +703,16 @@ footer{
   background:white;
   color: #0F3E6D;
    background-image: url(../img/snow.gif);
-  box-shadow: 3px 3px 3px;
   border-radius: 50px;
 }
 .modi:hover{
   background:white;
   color: white;
   background:black;
-  box-shadow: 3px 3px 3px;
   background-image: url(../img/snow.gif);
   transition: transform .10s;
   transition: color .7s;
+  transition: background .7s;
 }
 .modi1{
 	margin-top: 30px;
@@ -758,7 +781,7 @@ footer{
   transition: transform .3s;
 }
 .ei{
-	background: #101D3D;
+	background: #0F3E6D;
 }
 .ei1{
   background:#005B0F;
@@ -791,7 +814,8 @@ width: 94%;
 margin-left: 12px;
 margin-right: 12px;
 height: 150px;
-margin-top: 96px;
+margin-top: 86px;
+border-radius: 25px;
 }
 
 .body-5{
@@ -1086,7 +1110,7 @@ a{
     letter-spacing: 1px;
       background:#0F3E6D;
   color: white;
-  box-shadow: 3px 3px 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   background-image: url(../img/snow.gif);
 }
 .slideshow li div h5 {
@@ -1102,7 +1126,7 @@ a{
     color:#0F3E6D;
     background:black;
      letter-spacing: 1px;
-  box-shadow: 3px 3px 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   background-image: url(../img/snow.gif);
 
 }
@@ -1122,7 +1146,7 @@ a{
     background:black;
      letter-spacing: 1px;
      color: #005B0F;
-  box-shadow: 3px 3px 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 
 }
 .slideshow li:nth-child(1) span { background-image: url(../img/holiday.png) }
