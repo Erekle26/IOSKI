@@ -17,6 +17,85 @@
         line-height: 48px;
          letter-spacing: 1px;
     }
+    .mtadagondola{
+        display: none;
+    }
+    .mtadagondola1{
+        display: none;
+    }
+    .gondola{
+        display: none;
+    }
+    .ravtqva{
+        margin-left: 24px;
+        font-size: 22px;
+        margin-top: 12px;
+    }
+    .ravtqva1{
+        margin-left: 24px;
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .tqvi{
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .tqvi1{
+        font-size: 16px;
+    }
+    .tqvi2{
+        font-size: 16px;
+    }
+    .modi{
+        margin-left: 380px;
+        font-size: 26px;
+    }
+    .modi1{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1080px){
+    .mac{
+        display: block;
+    }
+    .pic1{
+    width: 470px;
+        height: 300px;
+    object-fit: cover;
+    margin-top: 6px;
+    display: none;
+    }
+    .pic1:hover{
+        transform: scale(1.1);
+        transition: transform .3s;
+    }
+    .pic2:hover{
+        transform: scale(1.1);
+        transition: transform .3s;
+    }
+    .pic22{
+       width: 470px;
+        height: 300px;
+    object-fit: cover;
+    margin-right: 124px; 
+    }
+    .pic{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        padding-left: 12px;
+    }
+    .cc{
+        width: 500px;
+    }
+    .cc1{
+        width: 500px;
+    }
+    .pic2{
+        width: 470px;
+        height: 300px;
+    object-fit: cover;
+    }
 }
 @media(max-width: 800px){
     .slideshow li div h4{
@@ -41,6 +120,71 @@
          padding: 6px;
     }
 }
+@media (max-width: 925px){
+    .ai{
+        display: block;
+    }
+    .ai1{
+        display: block;
+    }
+    .pic2{
+        display: none;
+    }
+    .pic22{
+        display: none;
+    }
+    .pic{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .ss2{
+        width: 90%;
+    }
+    .cc{
+        width: 91%;
+         margin-left: 12px;
+        margin-right: 72px;
+        background:transparent;
+    }
+     .cc1{
+        width: 91%;
+         margin-left: 12px;
+        margin-right: 72px;
+        background:transparent;
+    }
+    .modiii{
+        width: 88%;
+    }
+    .body-5{
+        background:white;
+        overflow-x: hidden;
+    }
+    .modi {
+        width: 330px;
+        font-size: 22px;
+       
+        
+    }
+    .ei1{
+        margin-right: 72px;
+    }
+    .modi1{
+        font-size: 14px;
+        padding-right: 6px;
+    }
+}
+@media (max-width: 830px){
+    .modiii{
+        width: 400px;
+    }
+    .modi{
+        display: none;
+    }
+    .modi1{
+        display: none;
+    }
+}
 @media (max-width: 600px){
        .slideshow li div{
         margin-left: -36px;
@@ -52,6 +196,29 @@
          letter-spacing: 1px;
          padding: 6px;
      
+    }
+    .pic{
+        height: 300px;
+        margin-left: -12px;
+    }
+    .modiii{
+        margin-left: 48px;
+        width: 350px;
+    }
+    .cc{
+        width: 97%;
+    }
+    .cc1{
+        width: 97%
+    }
+    .ei{
+        width: 93%
+    }
+    .ei1{
+        width: 93%;
+    }
+    .ss2{
+        width: 93%;
     }
      .slideshow li div h3{
         font-size: 26px;
@@ -95,6 +262,8 @@
        padding-bottom: 0;
     }
 }
+@media (max-width: 500){
+
 @media (max-width: 460px){
        .slideshow li div{
         margin-left: -50px;
@@ -110,8 +279,8 @@
           margin-top: -350px;
      
     }
-    .menu .nav-1 li a {
-        padding-left: 124px;
+    .menu .nav-1  {
+        font-size: 18px;
     }
      .slideshow li div h3{
         font-size: 26px;
