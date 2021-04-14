@@ -8,7 +8,7 @@
 }
 html {
   --scrollbarBG: #CFD8DC;
-  --thumbBG: midnightblue;
+  --thumbBG: #23252A;
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -585,12 +585,25 @@ footer input {
   margin-left: 12px;
   margin-right: 72px;
   margin-bottom: 12px;
-  border:12px solid #23252A;
- }
+}
+.eiei{margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 72px;
+  margin-bottom: 12px;
+}
+.eieiei{margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 72px;
+  margin-bottom: 12px;
+}
+
  .ei1{margin-top: 12px;
   margin-left: 12px;
   margin-bottom: 12px;
-  border:12px solid #23252A;
+ }
+  .eiei1{margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
  }
  body {
   margin: 0;
@@ -636,27 +649,53 @@ footer input {
     margin-bottom: 12px;
 }
 .ravtqva{
-	font-size: 30px;
+	font-size: 24px;
 	font-family: "MG Glaho Drunk" sans-serif;
-	font-weight: bold;
-	margin-top: 24px;
-	margin-left: 120px;
-	color: white;
+	font-weight: 700;
+	padding-top: 12px;
+	margin-left: 170px;
+	color: black;
 }
 .ravtqva1{
 	font-size: 22px;
 	font-family: "MG Glaho Drunk" sans-serif;
-	font-weight: bold;
-	margin-top: 36px;
-	margin-left: 104px;
-	color: #818181;
+	font-weight: 700;
+	padding-top: 12px;
+	margin-left: 120px;
+	color: black;
+}
+.ravtqva2{
+  font-size: 22px;
+  font-family: "MG Glaho Drunk" sans-serif;
+  font-weight: 700;
+  padding-top: 12px;
+  margin-left: 200px;
+  color: black;
+}
+.ei{
+  height: 180px;
+}
+.eiei{
+  height: 270px;
+}
+.eiei1{
+  height: 270px;
+}
+.ei1{
+  height: 220px;
+}
+.eieiei{
+  height: 150px;
+}
+.bl{
+  display: block;
 }
 .tqvi{
-	font-size: 18px;
+	font-size: 19px;
     font-family: "alk-life" sans-serif;
-    margin-top: 32px;
+    margin-top: 24px;
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 2%;
     font-weight: lighter;
     color: white;
     line-height: 1.3;
@@ -666,11 +705,11 @@ footer{
   margin-top: 24px;
 }
 .tqvi1{
-    font-size: 21px;
+    font-size: 19px;
     font-family: "alk-life" sans-serif;
-    margin-top: 12px;
+    margin-top: 24px;
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 2%;
     font-weight: 500;
     color: white;
     line-height: 1.3;
@@ -681,11 +720,11 @@ footer{
   margin-bottom: 12px;
 }
 .tqvi2{
-    font-size: 18px;
+    font-size: 19px;
     font-family: "alk-life" sans-serif;
     margin-top: 24px;
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 2%;
     font-weight: lighter;
     color: white;
     line-height: 1.3;
@@ -693,13 +732,12 @@ footer{
 .modi{
 	margin-left: 448px;
 	font-size: 30px;
-	font-weight: 900;
+	font-weight: bold;
 	font-family: "MG Glaho Drunk" sans-serif;
-	background: black;
+	background: white;
 	width: 440px;
 	height:70px;
 	padding: 15px;
-  background:white;
   color: #0F3E6D;
    background-image: url(../img/snow.gif);
   border-radius: 50px;
@@ -782,7 +820,16 @@ footer{
 .ei{
 	background: #0F3E6D;
 }
+.eiei{
+  background: #0F3E6D;
+}
+.eieiei{
+  background: #0F3E6D;
+}
 .ei1{
+  background:#005B0F;
+}
+.eiei1{
   background:#005B0F;
 }
 .iconfly{
@@ -808,13 +855,14 @@ footer{
   }
 }
 .modiii{
-background: #0F3E6D;
+background: #003580;
 width: 94%;
 margin-left: 12px;
 margin-right: 12px;
 height: 150px;
 margin-top: 86px;
-border-radius: 25px;
+border-left: 2px solid gray;
+border-right: 2px solid gray;
 }
 
 .body-5{

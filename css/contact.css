@@ -6,7 +6,7 @@ p{
 }
 html {
   --scrollbarBG: #CFD8DC;
-  --thumbBG: midnightblue;
+  --thumbBG: #23252A;
 }
 body::-webkit-scrollbar {
   width: 11px;
